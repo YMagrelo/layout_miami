@@ -85,6 +85,7 @@ a {
     margin-left: 10px; } }
 
 .header {
+  max-width: 1260px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,6 +137,10 @@ a {
             flex-direction: column; }
   .header__phone {
     margin: 10px 0; } }
+
+@media screen and (min-width: 1259px) {
+  .header {
+    margin: auto; } }
 
 .logo {
   width: 115px;
@@ -235,7 +240,7 @@ a {
 
 .photos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  grid-template-columns: repeat(auto-fit, 460px);
   grid-gap: 16px; }
   .photos__title {
     margin: 12px 0 35px; }
@@ -248,6 +253,10 @@ a {
     grid-template-columns: 2fr 1fr; }
   .photos_wide_right {
     grid-template-columns: 1fr 2fr; }
+
+@media screen and (max-width: 799px) {
+  .photos {
+    grid-template-columns: 1fr; } }
 
 .gallery__title {
   margin: 12px 0 35px; }
@@ -283,14 +292,14 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .consultation__text {
-    width: 480px; }
+    max-width: 480px; }
   .consultation__heading {
     margin-bottom: 24px;
     font-weight: 400;
     font-size: 32px;
     line-height: 40px; }
   .consultation__form {
-    width: 380px; }
+    max-width: 380px; }
 
 @media screen and (max-width: 799px) {
   .consultation {
@@ -408,7 +417,7 @@ a {
     width: 270px;
     margin: 0; }
   .contact__form {
-    width: 380px; }
+    max-width: 380px; }
 
 @media screen and (max-width: 799px) {
   .contact {
@@ -421,6 +430,7 @@ a {
             align-items: center; } }
 
 .footer {
+  max-width: 1260px;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
@@ -436,6 +446,10 @@ a {
     bottom: 95px;
     -webkit-transform: translate(-50%);
             transform: translate(-50%); }
+
+@media screen and (min-width: 1259px) {
+  .footer {
+    margin: auto; } }
 
 * {
   -webkit-box-sizing: border-box;
