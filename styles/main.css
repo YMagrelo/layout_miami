@@ -90,7 +90,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 580px;
+  height: 765px;
   background: url(../images/header.jpg) center;
   background-size: cover;
   font-weight: 400;
@@ -327,15 +327,25 @@ a {
   padding: 14px;
   border: none; }
   .input::-webkit-input-placeholder {
-    color: #393939; }
+    color: #393939;
+    opacity: 0.5;
+    text-align: left; }
   .input::-moz-placeholder {
-    color: #393939; }
+    color: #393939;
+    opacity: 0.5;
+    text-align: left; }
   .input:-ms-input-placeholder {
-    color: #393939; }
+    color: #393939;
+    opacity: 0.5;
+    text-align: left; }
   .input::-ms-input-placeholder {
-    color: #393939; }
+    color: #393939;
+    opacity: 0.5;
+    text-align: left; }
   .input::placeholder {
-    color: #393939; }
+    color: #393939;
+    opacity: 0.5;
+    text-align: left; }
   .input_textarea {
     height: 160px; }
 
@@ -438,6 +448,7 @@ a {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 /*# sourceMappingURL=main.css.map */
