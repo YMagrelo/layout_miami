@@ -189,8 +189,8 @@ a {
   .section__heading {
     left: 0;
     right: 0;
-    top: -0.5em;
-    margin: auto; }
+    top: 10px;
+    margin: 10px auto; }
 
 @media screen and (max-width: 799px) {
   .section {
@@ -198,7 +198,7 @@ a {
     padding-right: 40px; } }
 
 .heading {
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 300;
   line-height: 1;
   position: absolute;
@@ -253,7 +253,7 @@ a {
   margin: 12px 0 35px; }
 
 .gallery__button {
-  margin: 44px auto 0; }
+  margin: 42px auto 0; }
 
 .button {
   display: block;
